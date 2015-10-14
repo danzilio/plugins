@@ -133,6 +133,16 @@
       "name": "fileserver",
       "url": "https://github.com/camptocamp/puppet-lint-fileserver-check",
       "description": "A puppet-lint plugin to check if puppet:/// is used instead of file()."
+    },
+    {
+      "name": "absolute_template",
+      "url": "https://github.com/deanwilson/puppet-lint-absolute_template_path-check",
+      "description": "A puppet-lint plugin to check if paths to the template() function are relative."
+    },
+    {
+      "name": "resource_outside_class",
+      "url": "https://github.com/llowder/puppet-lint-resource_outside_class-check",
+      "description": "A puppet-lint plugin to check if resources exist outside of a class or defined type."
     }
   ]
 }
